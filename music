@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Nghe Nhạc</title>
+  <style>
+    /* Xóa margin mặc định */
+    body {
+      margin: 0;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    audio {
+      width: 300px; /* Chiều rộng thanh audio */
+    }
+  </style>
+</head>
+<body>
+  <audio controls>
+    <source src="https://zingmp3.vn/bai-hat/Noi-Nay-Co-Anh-Son-Tung-M-TP/ZW79ZBE8.html" type="audio/mpeg">
+    
+  </audio>
+</body>
+</html>
